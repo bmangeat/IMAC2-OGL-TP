@@ -8,7 +8,7 @@ using namespace glimac;
 
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-    SDLWindowManager windowManager(800, 600, "GLImac");
+    SDLWindowManager windowManager(800, 800, "GLImac");
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();
@@ -33,9 +33,9 @@ int main(int argc, char** argv) {
      glGenBuffers(1, &vbo);
 
      glBindBuffer(GL_ARRAY_BUFFER, vbo);
-       GLfloat vertices[] = {-0.5f, -0.5f, 1.f, 0.f, 0.f,
-          0.5f, -0.5f, 0.f, 1.f, 0.f,
-           0.0f, 0.5f, 0.f, 0.f, 1.f};
+       GLfloat vertices[] = {-0.5f, -0.5f, 1.f, 1.f, 1.f,
+         0.5f, -0.5f, 0.f, 0.f, 0.25f,
+           0.0f, 0.5f, 0.f, 0.f, 0.25f};
        glBufferData(GL_ARRAY_BUFFER, 15*sizeof(GLfloat), vertices, GL_STATIC_DRAW);
      glBindBuffer(GL_ARRAY_BUFFER, 0);
 
