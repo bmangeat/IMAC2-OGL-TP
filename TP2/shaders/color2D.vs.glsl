@@ -4,6 +4,7 @@ layout(location = 0) in vec2 aVertexPosition;
 layout(location = 1) in vec3 aVertexColor;
 
 out vec3 vFragColor;
+out vec2 vPosition;
 
 mat3 translate(float tx, float ty){
   mat3 M = mat3(vec3(1,0,0), vec3(0,1,0), vec3(tx, ty, 1));
@@ -54,19 +55,17 @@ void main(){
   // vFragColor = aVertexColor;
   // gl_Position = vec4(transformedVP, 0, 1);
 
-// Transformer le triangle en particule
+// Transformer le triangle en particule = traitement de la couleur dans le FS
 
-  mat3 M = mat3(1.f);
+  vFragColor = aVertexColor;
+  vPosition = aVertexPosition;
 
-  float alpha = 0.5f;
-  float beta = 0.2f;
-  float distance = distance(aVertexPosition, vec2(0,1));
+  gl_Position = vec4(aVertexPosition, 0, 1);
 
-  vec2 transformedVP = (M*vec3(aVertexPosition, 1)).xy;
+// Texture procédurale
 
-  vFragColor = aVertexColor*(alpha*exp(-beta*pow(distance,2))
-
-  gl_Position = vec4(transformedVP, 0, 1);
+  //vFragColor = aVertexColor*length(fract(5.0*aVertexPosition));
+  //gl_Position = vec4(aVertexPosition, 0, 1);
 
 
 }
