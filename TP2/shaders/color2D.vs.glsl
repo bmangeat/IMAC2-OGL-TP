@@ -62,10 +62,8 @@ void main(){
 
   gl_Position = vec4(aVertexPosition, 0, 1);
 
-// Texture procédurale
 
-  //vFragColor = aVertexColor*length(fract(5.0*aVertexPosition));
-  //gl_Position = vec4(aVertexPosition, 0, 1);
+
 
 
 }
