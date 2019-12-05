@@ -7,4 +7,4 @@ out vec2 vPosition;
 void main() {
 	vPosition = aVertexPosition;
 	gl_Position = vec4(aVertexPosition, 0, 1);
-};
+}

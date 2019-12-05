@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Cone.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Cone.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Cone.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Geometry.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Geometry.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Geometry.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Image.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Image.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Image.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Program.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Program.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Program.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/SDLWindowManager.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/SDLWindowManager.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Shader.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Shader.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/Sphere.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Sphere.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Sphere.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/tiny_obj_loader.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/tiny_obj_loader.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo6_circleIBO.dir/exo6_circleIBO.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo6_circleIBO.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo6_circleIBO.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo5_circle.dir/exo5_circle.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo5_circle.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo5_circle.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo4_quad.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo4_quad.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo3_structure_vertex.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo3_structure_vertex.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo2_triangle_couleurs2.dir/exo2_triangle_couleurs2.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo2_triangle_couleurs2.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo2_triangle_couleurs2.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo1_triangle_blanc.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo1_triangle_blanc.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP2_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo2_triangle_couleurs.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo2_triangle_couleurs.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP2_exo1_triangle_couleurs.dir/exo1_triangle_couleurs.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo1_triangle_couleurs.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo1_triangle_couleurs.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/SDLtemplate.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/SDLtemplate.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TPMandelbrot_mandelbrot.dir/mandelbrot.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/mandelbrot.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/mandelbrot.cpp"
+},
+{
+  "directory": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/usr/local/Cellar/sdl2/2.0.10/include/SDL2 -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include -I/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -I/usr/local/include -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o -c /Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP_template/SDLtemplate.cpp",
+  "file": "/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP_template/SDLtemplate.cpp"
+}
+]

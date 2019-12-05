@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImacGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SDL2\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\TP1\;CMake Files\TP2\;CMake Files\TPMandelbrot\;CMake Files\TP_template\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glimac/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/libglimac.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 glimac/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/glimac/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_circleIBO">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo6_circleIBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_circleIBO"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo6_circleIBO/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo6_circleIBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo6_circleIBO/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo5_circle">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo5_circle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo5_circle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo5_circle/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo5_circle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo5_circle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo4_quad">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo4_quad" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo4_quad"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo4_quad/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo4_quad" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo4_quad/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo3_structure_vertex">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo3_structure_vertex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo3_structure_vertex"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo3_structure_vertex/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo3_structure_vertex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo3_structure_vertex/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo2_triangle_couleurs2">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo2_triangle_couleurs2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo2_triangle_couleurs2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo2_triangle_couleurs2/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo2_triangle_couleurs2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo2_triangle_couleurs2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo1_triangle_blanc">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo1_triangle_blanc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo1_triangle_blanc"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP1_exo1_triangle_blanc/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/TP1_exo1_triangle_blanc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 TP1_exo1_triangle_blanc/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo2_triangle_couleurs">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_exo2_triangle_couleurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo2_triangle_couleurs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo2_triangle_couleurs/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_exo2_triangle_couleurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo2_triangle_couleurs/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo1_triangle_couleurs">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_exo1_triangle_couleurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo1_triangle_couleurs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_exo1_triangle_couleurs/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_exo1_triangle_couleurs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_exo1_triangle_couleurs/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_SDLtemplate">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_SDLtemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_SDLtemplate"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP2_SDLtemplate/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/TP2_SDLtemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 TP2_SDLtemplate/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPMandelbrot_mandelbrot">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/TPMandelbrot_mandelbrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 TPMandelbrot_mandelbrot"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPMandelbrot_mandelbrot/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/TPMandelbrot_mandelbrot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 TPMandelbrot_mandelbrot/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TPMandelbrot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_template_SDLtemplate">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/TP_template_SDLtemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP_template_SDLtemplate/fast">
+				<Option output="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/TP_template_SDLtemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/sdl2/2.0.10/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include"/>
+					<Add directory="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/third-party/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/cmake-build-debug/TP_template/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo1_triangle_blanc.cpp">
+			<Option target="TP1_exo1_triangle_blanc"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo2_triangle_couleurs2.cpp">
+			<Option target="TP1_exo2_triangle_couleurs2"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo3_structure_vertex.cpp">
+			<Option target="TP1_exo3_structure_vertex"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo4_quad.cpp">
+			<Option target="TP1_exo4_quad"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo5_circle.cpp">
+			<Option target="TP1_exo5_circle"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/exo6_circleIBO.cpp">
+			<Option target="TP1_exo6_circleIBO"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/shaders/triangle.fs.glsl">
+			<Option target="TP1_exo6_circleIBO"/>
+			<Option target="TP1_exo5_circle"/>
+			<Option target="TP1_exo4_quad"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo2_triangle_couleurs2"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/shaders/triangle.vs.glsl">
+			<Option target="TP1_exo6_circleIBO"/>
+			<Option target="TP1_exo5_circle"/>
+			<Option target="TP1_exo4_quad"/>
+			<Option target="TP1_exo3_structure_vertex"/>
+			<Option target="TP1_exo2_triangle_couleurs2"/>
+			<Option target="TP1_exo1_triangle_blanc"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/SDLtemplate.cpp">
+			<Option target="TP2_SDLtemplate"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo1_triangle_couleurs.cpp">
+			<Option target="TP2_exo1_triangle_couleurs"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/exo2_triangle_couleurs.cpp">
+			<Option target="TP2_exo2_triangle_couleurs"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/shaders/color2D.fs.glsl">
+			<Option target="TP2_exo2_triangle_couleurs"/>
+			<Option target="TP2_exo1_triangle_couleurs"/>
+			<Option target="TP2_SDLtemplate"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/shaders/color2D.vs.glsl">
+			<Option target="TP2_exo2_triangle_couleurs"/>
+			<Option target="TP2_exo1_triangle_couleurs"/>
+			<Option target="TP2_SDLtemplate"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/shaders/grey2D.fs.glsl">
+			<Option target="TP2_exo2_triangle_couleurs"/>
+			<Option target="TP2_exo1_triangle_couleurs"/>
+			<Option target="TP2_SDLtemplate"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/mandelbrot.cpp">
+			<Option target="TPMandelbrot_mandelbrot"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/shaders/mandelbrot.fs.glsl">
+			<Option target="TPMandelbrot_mandelbrot"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/shaders/mandelbrot.vs.glsl">
+			<Option target="TPMandelbrot_mandelbrot"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP_template/SDLtemplate.cpp">
+			<Option target="TP_template_SDLtemplate"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/BBox.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Cone.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/FilePath.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Geometry.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Image.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Program.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/SDLWindowManager.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Shader.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/Sphere.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/common.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/include/glimac/glm.hpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Cone.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Geometry.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Image.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Program.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/SDLWindowManager.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Shader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/Sphere.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/tiny_obj_loader.cpp">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/src/tiny_obj_loader.h">
+			<Option target="glimac"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/../../../../../../usr/local/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/CMake/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/glimac/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\glimac\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP1\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP2\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TPMandelbrot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TPMandelbrot\"/>
+		</Unit>
+		<Unit filename="/Users/brice/Documents/COURS/OpenGL/IMAC2-OGL-TP/TP_template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TP_template\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
