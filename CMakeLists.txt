@@ -9,15 +9,19 @@ set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
+#set(GLEW_VERBOSE 1)
+
 #find_package(SDL REQUIRED)
 find_package(SDL2 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 
-include_directories(${SDL2_INCLUDE_DIRS})
 
 # Pour gérer un bug a la fac, a supprimer sur machine perso:
 #set(OPENGL_LIBRARIES /usr/lib/x86_64-linux-gnu/libGL.so.1)
+message(STATUS "${GLEW_INCLUDE_DIRS}")
+#message(STATUS "${GLEW_VERSION}")
+#message(STATUS "${GLEW_VERSION_MAJOR}")
 
 include_directories(${SDL2_INCLUDE_DIRS} ${OPENGL_INCLUDE_DIR} ${GLEW_INCLUDE_DIRS} glimac/include third-party/include)
 
