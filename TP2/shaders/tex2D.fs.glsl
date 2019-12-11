@@ -3,8 +3,8 @@
 in vec2 vFragTexture;
 in vec2 vPosition;
 
-out vec3 fFragColor
+out vec3 fFragColor;
 
 void main(){
-    fFragColor = (255, 0, 0);
+    fFragColor = vec3(255, 0, 0);
 }

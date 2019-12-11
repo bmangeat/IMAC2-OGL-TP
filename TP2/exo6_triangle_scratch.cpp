@@ -2,6 +2,9 @@
 #include <GL/glew.h>
 #include <iostream>
 
+#include <glimac/Program.hpp>
+#include <glimac/FilePath.hpp>
+
 using namespace glimac;
 
 struct Vertex2DUV{
@@ -15,9 +18,11 @@ struct Vertex2DUV{
     }
 };
 
+
+
 int main(int argc, char** argv) {
     // Initialize SDL and open a window
-    SDLWindowManager windowManager(800, 600, "GLImac");
+    SDLWindowManager windowManager(800, 800, "GLImac");
 
     // Initialize glew for OpenGL3+ support
     GLenum glewInitError = glewInit();
@@ -26,8 +31,14 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 
-    std::cout << "OpenGL Version : " << glGetString(GL_VERSION) << std::endl;
-    std::cout << "GLEW Version : " << glewGetString(GLEW_VERSION) << std::endl;
+    FilePath applicationPath(argv[0]);
+    Program program = loadProgram(applicationPath.dirPath() + "shaders/tex2D.vs.glsl",
+                                  applicationPath.dirPath() +  "shaders/tex2D.fs.glsl");
+    program.use();
+
+    GLint uTime =  glGetUniformLocation(program.getGLId(), "uTime");
+    GLfloat iTime = 0;
+
 
     /*********************************
      * HERE SHOULD COME THE INITIALIZATION CODE
@@ -107,6 +118,9 @@ int main(int argc, char** argv) {
         glClear(GL_COLOR_BUFFER_BIT);
         glBindVertexArray(vao);
         {
+            iTime +=0.01;
+            glUniform1f(uTime, iTime);
+
             glDrawArrays(GL_TRIANGLES, 0, 6);
             glBindVertexArray(0);
         }
